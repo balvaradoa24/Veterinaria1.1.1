@@ -11,8 +11,17 @@ namespace Veterinaria1._1._1
 {
 
 
-    public partial class ReporteUsuario
+    public partial class ReporteMascotas
     {
+
+        /// <summary>
+        /// Control form3.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm form3;
 
         /// <summary>
         /// Control GridView1.
@@ -33,75 +42,84 @@ namespace Veterinaria1._1._1
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
 
         /// <summary>
-        /// Control Label1.
+        /// Control lblNombreMascota.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label lblNombreMascota;
 
         /// <summary>
-        /// Control txtMascota.
+        /// Control txtNombreMascota.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMascota;
+        protected global::System.Web.UI.WebControls.TextBox txtNombreMascota;
 
         /// <summary>
-        /// Control txtFecha.
+        /// Control lblTipoMascota.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFecha;
+        protected global::System.Web.UI.WebControls.Label lblTipoMascota;
 
         /// <summary>
-        /// Control Label2.
+        /// Control txtTipoMascota.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.TextBox txtTipoMascota;
 
         /// <summary>
-        /// Control txtDoctor.
+        /// Control lblComidaFavorita.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDoctor;
+        protected global::System.Web.UI.WebControls.Label lblComidaFavorita;
 
         /// <summary>
-        /// Control btnIngresar2.
+        /// Control txtComidaFavorita.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnIngresar2;
+        protected global::System.Web.UI.WebControls.TextBox txtComidaFavorita;
 
         /// <summary>
-        /// Control btnModificar2.
+        /// Control btnIngresar3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnModificar2;
+        protected global::System.Web.UI.WebControls.Button btnIngresar3;
 
         /// <summary>
-        /// Control btnEliminar2.
+        /// Control btnModificar3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEliminar2;
+        protected global::System.Web.UI.WebControls.Button btnModificar3;
+
+        /// <summary>
+        /// Control btnEliminar3.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnEliminar3;
     }
 }

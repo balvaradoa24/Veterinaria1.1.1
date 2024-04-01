@@ -7,13 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Configuration;
 
 
 namespace Veterinaria1._1._1
 {
     public partial class ReporteUsuario : System.Web.UI.Page
     {
-        string conexion2 = "Data Source=DESKTOP-VCSUPFU\\SQLEXPRESS;Initial Catalog=ReporteCitas;Integrated Security=True";
+        string conexion2 = "Data Source=DESKTOP-D3L7VF1\\SQLEXPRESS;Initial Catalog=ReporteCitas;Integrated Security=True";
 
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
@@ -21,7 +22,6 @@ namespace Veterinaria1._1._1
 
         }
 
-     
 
         protected void btnIngresar2_Click(object sender, EventArgs e)
         {
@@ -29,11 +29,12 @@ namespace Veterinaria1._1._1
 
             using (SqlConnection cn = new SqlConnection(conexion2))
             {
-                SqlCommand cmd = new SqlCommand("insert into Citas(Mascota,Fecha,Doctor) values  (" + txtMascota.Text + ",'" + txtFecha.Text + "','" + txtDoctor.Text + " ')", cn);
-                cmd.CommandType = CommandType.Text;
-
                 cn.Open();
+                SqlCommand cmd = new SqlCommand("INSERT into Citas values  (" + txtMascota.Text + ",'" + txtFecha.Text + "','" + txtDoctor.Text + " ')", cn);
+                cmd.CommandType = CommandType.Text;
                 cmd.ExecuteNonQuery();
+                cn.Close();
+                //LlenarGrid();
 
             }
 

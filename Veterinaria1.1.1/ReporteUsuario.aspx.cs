@@ -13,7 +13,7 @@ namespace Veterinaria1._1._1
 {
     public partial class ReporteUsuario : System.Web.UI.Page
     {
-        string conexion = "Data Source=DESKTOP-VCSUPFU\\SQLEXPRESS;Initial Catalog=reportUsuari;Integrated Security=True";
+        string conexion = "Data Source=DESKTOP-D3L7VF1\\SQLEXPRESS;Initial Catalog=reportUsuari;Integrated Security=True";
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -36,11 +36,11 @@ namespace Veterinaria1._1._1
         {
             using (SqlConnection cn = new SqlConnection(conexion))
             {
-                SqlCommand cmd = new SqlCommand("insert into usuari(id,usuario,contrasena) values  (" + txtid.Text + ",'" + txnombre.Text + "','" + txtcontrasena.Text + " ')", cn);
-                cmd.CommandType = CommandType.Text;
-
                 cn.Open();
+                SqlCommand cmd = new SqlCommand("INSERT into usuari values  (" + txtid.Text + ",'" + txnombre.Text + "','" + txtcontrasena.Text + " ')", cn);
+                cmd.CommandType = CommandType.Text;
                 cmd.ExecuteNonQuery();
+                cn.Close();
             }
         }
 

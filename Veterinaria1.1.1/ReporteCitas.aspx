@@ -15,7 +15,7 @@
     </style>
 </head>
 <body style="height: 491px">
-    <form id="form1" runat="server">
+    <form runat="server">
         <asp:GridView ID="GridView1" runat="server" DataSourceID="SqlDataSource1">
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
