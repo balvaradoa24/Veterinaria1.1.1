@@ -13,7 +13,7 @@ namespace Veterinaria1._1._1
 {
     public partial class ReporteUsuario : System.Web.UI.Page
     {
-        string conexion = "Data Source=DESKTOP-D3L7VF1\\SQLEXPRESS;Initial Catalog=reportUsuari;Integrated Security=True";
+        string conexion = "Data Source=DESKTOP-D3L7VF1\\SQLEXPRESS;Initial Catalog=Veterinaria;Integrated Security=True";
 
         protected void Page_Load(object sender, EventArgs e)
         {

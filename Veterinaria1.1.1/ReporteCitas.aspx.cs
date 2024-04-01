@@ -14,7 +14,7 @@ namespace Veterinaria1._1._1
 {
     public partial class ReporteUsuario : System.Web.UI.Page
     {
-        string conexion2 = "Data Source=DESKTOP-D3L7VF1\\SQLEXPRESS;Initial Catalog=ReporteCitas;Integrated Security=True";
+        string conexion2 = "Data Source=DESKTOP-D3L7VF1\\SQLEXPRESS;Initial Catalog=Veterinaria;Integrated Security=True";
 
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)

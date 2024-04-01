@@ -1,0 +1,23 @@
+CREATE DATABASE Veterinaria;
+USE Veterinaria;
+
+CREATE TABLE Usuarios (
+    Login_Usuario VARCHAR(50) PRIMARY KEY,
+    Clave_Usuario VARCHAR(50),
+    Nombre_Usuario VARCHAR(100)
+);
+
+CREATE TABLE Mascotas (
+    ID_Mascota INT PRIMARY KEY IDENTITY(1,1),
+    Nombre_Mascota VARCHAR(100),
+    Tipo_Mascota VARCHAR(50),
+    Comida_Favorita VARCHAR(100)
+);
+
+CREATE TABLE Citas (
+    ID_Cita INT PRIMARY KEY IDENTITY(1,1),
+    ID_Mascota INT,
+    Proxima_fecha DATE,
+    Medico_Asignado VARCHAR(100),
+    FOREIGN KEY (ID_Mascota) REFERENCES Mascotas(ID_Mascota)
+);

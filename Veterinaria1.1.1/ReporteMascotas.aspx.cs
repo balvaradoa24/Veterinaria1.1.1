@@ -14,7 +14,7 @@ namespace Veterinaria1._1._1
 {
     public partial class ReporteMascotas : System.Web.UI.Page
     {
-        string conexion3 = "Data Source=DESKTOP-D3L7VF1\\SQLEXPRESS;Initial Catalog=ReporteMascotas;Integrated Security=True";
+        string conexion3 = "Data Source=DESKTOP-D3L7VF1\\SQLEXPRESS;Initial Catalog=Veterinaria;Integrated Security=True";
 
         protected void btnIngresarMascota_Click(object sender, EventArgs e)
         {
