@@ -11,7 +11,7 @@ namespace Veterinaria1._1._1
 {
 
 
-    public partial class ReporteMascotas
+    public partial class ModificarMascotas
     {
 
         /// <summary>
@@ -96,31 +96,13 @@ namespace Veterinaria1._1._1
         protected global::System.Web.UI.WebControls.TextBox txtComidaFavorita;
 
         /// <summary>
-        /// Control btnIngresar3.
+        /// Control btnModificar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnIngresar3;
-
-        /// <summary>
-        /// Control btnModificar3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnModificar3;
-
-        /// <summary>
-        /// Control btnEliminar3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEliminar3;
+        protected global::System.Web.UI.WebControls.Button btnModificar;
 
         /// <summary>
         /// Control lblMensaje.
